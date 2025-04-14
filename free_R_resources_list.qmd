@@ -1,0 +1,87 @@
+---
+title: "Free Online Resources for R"
+subtitle: "Advance your analytical skills for free with online R resources"
+format: 
+  html:
+    toc: true
+    toc-title: Contents
+author: Madison Merzke, MAS, BPH
+date: last-modified
+editor: visual
+---
+
+## How to Use This List
+
+This list of free, online resources for R is organized, first by medium (e-book/website, video, event/community space, etc), and then by subject. **It was compiled by data scientists working in the public health and social science spheres for professionals seeking to grow their R skills.**
+
+Many thanks to all of the authors, organizers, and contributors in the R world, who have taught us all so much! If you have a resource you'd like to propose we add, please [message me on LinkedIn](https://www.linkedin.com/in/madisonmerzke/).
+
+## Free Online E-Books & Websites
+
+### Introductory
+
+[R for Data Science](https://r4ds.hadley.nz/) - the bible; if you're new to R and the `tidyverse`, start here!
+
+[The Epidemiologist R Handbook](https://epirhandbook.com/en/) - great introductory resource and reference tailored for applied epidemiology and public health
+
+::: callout-important
+To save yourself time, get comfortable referencing R package documentation! Most common packages have fantastic, easily accessible online documentation that provide details on how to use them. For example, I use [`stringr` functions with regular expressions](https://stringr.tidyverse.org/articles/regular-expressions.html) all the time and reference that page constantly. I can almost guarantee you that at least half of your R journey will be learning how to answer your own questions using the internet!
+:::
+
+### Statistical Techniques with R
+
+[Tidy Modeling with R](https://www.tmwr.org/) - goes deeper into modeling with `tidymodels` packages
+
+[Handbook of Regression Modeling in People Analytics](https://peopleanalytics-regression-book.org/) - "a starting point for a practical learning of regression methods," focused on people analytics
+
+[Meta-Analysis Learning Information Center](https://www.meta-analysis-learning-information-center.com/getting-started-with-meta-analysis) - introduction to using R for meta-analysis
+
+[Biostatistics for Biomedical Research](https://hbiostat.org/bbr/) - "aimed at exposing biomedical researchers to modern biostatistical methods and statistical graphics, highlighting those methods that make fewer assumptions, including nonparametric statistics and robust statistical measures"
+
+[Exploring Complex Survey Data Analysis Using R](https://tidy-survey-r.github.io/tidy-survey-book/) - "*A Tidy Introduction with {srvyr} and {survey}*"
+
+::: callout-tip
+If you're working with large data sets that take time to read in, trying using [`vroom()`](https://vroom.r-lib.org/) to read them in much faster!
+:::
+
+### Working with Qualitative Data
+
+[Text Mining with R: A Tidy Approach](https://www.tidytextmining.com/) - the basics of NLP with R, a great place to start
+
+### Data Visualization
+
+Many of the other resources listed include sections on data visualization. However, the below may provide some additional inspiration:
+
+[The R Graph Gallery – Help and inspiration for R charts](https://r-graph-gallery.com/)
+
+### Sharing Your Work
+
+::: callout-tip
+Leverage Quarto and GitHub to create a free, online portfolio of work you can share with your network and use in the job search process!
+:::
+
+[Happy Git and GitHub for the useR](https://happygitwithr.com/) - learn to use Git for version control and to share your code and projects
+
+[R Workflow for Reproducible Data Analysis and Reporting](https://hbiostat.org/rflow/) - collection of associated best practices
+
+[Tidyverse style guide](https://style.tidyverse.org/) - make your code more readable! You can automate a lot of this with [`styler`](https://styler.r-lib.org/), which can now reformat your code in RStudio upon save (within updated version of RStudio)
+
+[Quarto](https://quarto.org/docs/guide/) - learn about all of the creative, cool outputs you can create with R and Quarto, right in RStudio!
+
+## Free Online Videos
+
+[Posit::conf(2024) talks](https://www.youtube.com/playlist?list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn) - varying topics, but inspiring and super informative
+
+## Free Online Events & Community Spaces
+
+::: callout-tip
+One of the best ways to keep growing in your R skills is to engage with other useRs! There are many conferences and events, both virtually and free or in-person, depending on your preferences and budget! **You can also add this into your daily routine by connecting with or following others useRs on LinkedIn, BlueSky, or other social media of your choice! I have learned so much via examples other brilliant useRs have shared.**
+:::
+
+[TidyTuesday](https://github.com/rfordatascience/tidytuesday) - weekly exercises with associated Slack; post your results with #TidyTuesday!
+
+[Posit's Data Science Hangout](https://posit.co/data-science-hangout/) - weekly call, Thursday at noon EST
+
+## Free Online Courses
+
+Many online courses are free or low-cost, such as Coursera's [Statistical Analysis with R for Public Health Specialization](https://www.coursera.org/specializations/statistical-analysis-r-public-health). Also, we suggest you consider what free resources you might be able to access through your connections or community. For example, veterans and military spouses can often get a free year-long account on Coursera or Udemy through their programs.
