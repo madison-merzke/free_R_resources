@@ -1,13 +1,18 @@
 ---
 title: "Free Online Resources for R"
 subtitle: "Advance your analytical skills for free with online R resources"
+title-block-banner: "white"
+title-block-banner-color: "black"
 format: 
   html:
     toc: true
     toc-title: Contents
+    embed-resources: true
+    fontcolor: black
 author: Madison Merzke, MAS, BPH
 date: last-modified
 editor: visual
+css: styles.css
 ---
 
 ## How to Use This List
@@ -48,11 +53,17 @@ If you're working with large data sets that take time to read in, trying using [
 
 [Text Mining with R: A Tidy Approach](https://www.tidytextmining.com/) - the basics of NLP with R, a great place to start
 
+[quanteda: Quantitative Analysis of Textual Data](https://quanteda.io/articles/quickstart.html)
+
 ### Data Visualization
 
 Many of the other resources listed include sections on data visualization. However, the below may provide some additional inspiration:
 
 [The R Graph Gallery – Help and inspiration for R charts](https://r-graph-gallery.com/)
+
+[Tidy Plots for Scientific Papers • tidyplots](https://jbengler.github.io/tidyplots/)
+
+[shinylive](https://posit-dev.github.io/r-shinylive/)- create and deploy Shiny apps without a server!
 
 ### Sharing Your Work
 
@@ -67,6 +78,8 @@ Leverage Quarto and GitHub to create a free, online portfolio of work you can sh
 [Tidyverse style guide](https://style.tidyverse.org/) - make your code more readable! You can automate a lot of this with [`styler`](https://styler.r-lib.org/), which can now reformat your code in RStudio upon save (within updated version of RStudio)
 
 [Quarto](https://quarto.org/docs/guide/) - learn about all of the creative, cool outputs you can create with R and Quarto, right in RStudio!
+
+[Quarto Live](https://r-wasm.github.io/quarto-live/) - add interactive code to your outputs!
 
 ## Free Online Videos
 
