@@ -29,6 +29,12 @@ Many thanks to all of the authors, organizers, and contributors in the R world, 
 
 [The Epidemiologist R Handbook](https://epirhandbook.com/en/) - great introductory resource and reference tailored for applied epidemiology and public health
 
+[R Cookbook by Long & Teetor (2019)](https://rc2e.com/) - Great resource for foundational tasks in R, organized by problem / solution / discussion of specific issues
+
+[Posit cheatsheets](https://posit.co/resources/cheatsheets/) - Cheatsheets for basic commands and helpful tricks across a variety of packages in the tidyverse and working in Rmarkdown
+
+[Data Science Illustrations by Horst](https://allisonhorst.com/data-science-art) - Data science and statistics artwork that visualizes R commands and includes syntax
+
 ::: callout-important
 To save yourself time, get comfortable referencing R package documentation! Most common packages have fantastic, easily accessible online documentation that provide details on how to use them. For example, I use [`stringr` functions with regular expressions](https://stringr.tidyverse.org/articles/regular-expressions.html) all the time and reference that page constantly. I can almost guarantee you that at least half of your R journey will be learning how to answer your own questions using the internet!
 :::
@@ -45,6 +51,10 @@ To save yourself time, get comfortable referencing R package documentation! Most
 
 [Exploring Complex Survey Data Analysis Using R](https://tidy-survey-r.github.io/tidy-survey-book/) - "*A Tidy Introduction with {srvyr} and {survey}*"
 
+[The Missing Book by Tierney and Horst (2022)](https://tmb.njtierney.com/) - How to identify, wrangle, and work with missing data in R
+
+[Exploratory Data Analysis with R by Roger Peng (2020)](https://bookdown.org/rdpeng/exdata/) - Focus on data wrangling and analysis
+
 ::: callout-tip
 If you're working with large data sets that take time to read in, trying using [`vroom()`](https://vroom.r-lib.org/) to read them in much faster!
 :::
@@ -59,11 +69,23 @@ If you're working with large data sets that take time to read in, trying using [
 
 Many of the other resources listed include sections on data visualization. However, the below may provide some additional inspiration:
 
-[The R Graph Gallery – Help and inspiration for R charts](https://r-graph-gallery.com/)
+[The R Graph Gallery – Help and inspiration for R charts](https://r-graph-gallery.com/) (Examples of plots created in R with reproducible code. Great place to click around for inspiration!)
 
 [Tidy Plots for Scientific Papers • tidyplots](https://jbengler.github.io/tidyplots/)
 
+[Shiny Tutorial](https://shinylive.io/r/examples/#hello-shiny) - Shiny is a package that builds interactive web apps (think dashboard, etc.). Resource that shows the possibilities
+
 [shinylive](https://posit-dev.github.io/r-shinylive/)- create and deploy Shiny apps without a server!
+
+[From Data to Viz](https://www.data-to-viz.com/) - What kind of data visualizations can you make with the types of data you have? Provides R code for each visualization
+
+[Top 50 ggplot2 Visualizations (with Full R Code)](https://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)
+
+ggplot2 recorded webinars by Thomas Lin Pederson:
+
+-   [Part one](https://www.youtube.com/watch?v=h29g21z0a68)
+
+-   [Part two](https://www.youtube.com/watch?v=0m4yywqNPVY)
 
 ### Sharing Your Work
 
@@ -95,6 +117,18 @@ One of the best ways to keep growing in your R skills is to engage with other us
 
 [Posit's Data Science Hangout](https://posit.co/data-science-hangout/) - weekly call, Thursday at noon EST
 
+[Workflows with Posit Team](https://www.youtube.com/playlist?list=PL9HYL-VRX0oRsUB5AgNMQuKuHPpNDLBVt) - More advanced topics for R (e.g., ShinyApps, using Python in R)
+
 ## Free Online Courses
 
 Many online courses are free or low-cost, such as Coursera's [Statistical Analysis with R for Public Health Specialization](https://www.coursera.org/specializations/statistical-analysis-r-public-health). Also, we suggest you consider what free resources you might be able to access through your connections or community. For example, veterans and military spouses can often get a free year-long account on Coursera or Udemy through their programs.
+
+[Free R programming online courses](https://www.edx.org/learn/r-programming)
+
+[Ggplot2 course](https://www.edx.org/learn/data-visualization/harvard-university-data-science-visualization) with Harvard
+
+## Other Free Online Tools
+
+[learnr](https://rstudio.github.io/learnr/) - R package that creates interactive tutorials to learn R. "Examples" tab includes some useful tutorials
+
+[swirl](https://swirlstats.com/) - R package that includes interactive learning courses
